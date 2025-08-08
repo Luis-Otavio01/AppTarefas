@@ -2,14 +2,9 @@
 
 namespace AppTarefas.Controllers
 {
-    public class HomeController : Controller
+    public class TarefasController : Controller
     {
         public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Privacy()
         {
             return View();
         }
